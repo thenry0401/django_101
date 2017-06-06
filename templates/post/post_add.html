@@ -1,0 +1,9 @@
+{% extends 'base/base.html' %}}
+
+{% block content %}
+<form action="" method="POST">
+    {% csrf token %}
+    {{ forms }}
+    <button type="submit">생성</button>
+</form>
+{% endblock %}}
